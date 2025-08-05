@@ -1,0 +1,147 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* CSS Positioning Demo */
+        .position-example {
+            position: relative;
+            height: 200px;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            font-size: 14px;
+        }
+
+        .static {
+            background-color: #3498db;
+            position: static;
+        }
+
+        .relative {
+            background-color: #e74c3c;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+
+        .absolute {
+            background-color: #2ecc71;
+            position: absolute;
+            top: 50px;
+            right: 20px;
+        }
+
+        .fixed {
+            background-color: #f1c40f;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+
+        .sticky {
+            background-color: #9b59b6;
+            position: sticky;
+            top: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        /* Flexbox Demo */
+        .flex-container {
+            display: flex;
+            background-color: #ecf0f1;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .flex-item {
+            background-color: #1abc9c;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+
+        .flex-row {
+            flex-direction: row;
+        }
+
+        .flex-row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+        .flex-justify-center {
+            justify-content: center;
+        }
+
+        .flex-align-items {
+            align-items: center;
+            min-height: 100px;
+        }
+
+        .flex-grow-item {
+            flex-grow: 1;
+        }
+
+        /* Block and Inline-Block Demo */
+        .block-example div {
+            background-color: #34495e;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 100px;
+        }
+
+        /* Utility for spacing */
+        .spacer {
+            height: 300px;
+            background-color: #eee;
+            margin: 20px 0;
+        }
