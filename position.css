@@ -81,7 +81,7 @@
 
 
 
-        
+
         /* Flexbox Demo */
         .flex-container {
             display: flex;
@@ -119,7 +119,13 @@
         }
 
         .flex-grow-item {
-            flex-grow: 1;
+            flex-grow: 1; /* it there is extra space in the flex container hw much should i grow
+            shrink: 1; /* if there is not enough space in the flex container how much should i shrink 
+            flex-basis: 100px;  the initial size of the item before growing or shrinking 
+            .item {
+  flex: grow shrink basis;
+}
+            */
         }
 
         /* Block and Inline-Block Demo */
